@@ -1,86 +1,36 @@
 <!DOCTYPE html>
-<!--
-    Anything you put in between the double-dash arrow symbols shown around
-    this block of text is designated a 'comment' intended for human coders
-    and ignored by the computer. The top "<!DOCTYPE html>" line of code 
-    declares that this text file is to be interpreted as HTML code.
--->
-
-<html lang=en>
-<!--
-    This opening tag marks the start of the html code.  Everything below
-    until the </html> closing tag is part of this element. "lang" is an
-    attribute defining the language of the website. The value "en" 
-    indicates this site is written in English. We indent the content
-    inside an element to make it easier for people to read and understand.
--->
-
+<html lang="en">
     <head>
-    <!--Code *about* the website, NOT displayed in the browser window.-->
-
-        <meta charset="UTF-8"> <!--Sets site to use standard characters.-->
-
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Sizes your site to the visitor's screen size -->
-
-        <meta name="author" content="Your Name">
-        <!--
-            Some tags like "meta" are self-closing. They have "attributes" 
-            but no inner content and they don't need or use a closing tag.
-        -->
-
-        <title>Yourname's Projectname</title>
-        <!--The 'title' is what's displayed in the browser tab.-->
-
-        <link rel="stylesheet" href="/style.css">
-        <!--
-            HTML (HyperText Markup Language) code is for the website 
-            content. CSS (Cascading Style Sheets) code is for the website 
-            style. The line above tells the browser the file location and 
-            file name to find this code that you'll write/edit there.
-        -->
-
-        <link rel="icon" type="image/png" href="/favicon.png">
-        <!--
-            If you made/found a favicon, export/name it exactly favicon.png
-            and upload to the top level of your repo, then this line of
-            code will use it as your site icon in the browser tab.
-        -->
-
+        <meta name="author" content="Raihana Bouhnan">
+        <title>Screenprinting Project</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
     </head>
-
-    <body> <!--Everything to be displayed in the browser window.-->
+    <body> 
           
-        <!--example headings, paragraphs, lists-->
-        <h1>This is the biggest heading (for title, etc)</h1>
-        <p>This is the first paragraph</p>
-        <h2>This is the second biggest heading type</h2>
-        <p>Another paragraph</p>
-        <h2>Another second-biggest-heading</h2>
+        <h1>My Screenprinting Project</h1>
+        <p>For this technology project, I designed and created a custom graphic to screenprint onto a physical surface. The process started with developing a clean digital design, making sure the lines were bold and distinct so they would transfer properly onto the screen mesh.</p>
+        
+        <h2>Project Details & Process</h2>
+        <p>Once the design was ready, it was transferred onto a screen using a stencil method to block out the areas where ink shouldn't go. I carefully lined up my material, applied fabric ink across the top of the screen, and used a squeegee with firm pressure to pull the ink down, transferring the design perfectly onto the surface.</p>
+        
+        <h2>Key Materials & Steps</h2>
         <ul>
-            <li>use ul for bullet point (unordered) lists</li>
-            <li>use ol for numbered (ordered) lists</li>
+            <li>Custom digital graphic design stencil</li>
+            <li>Screenprinting frame and fine mesh screen</li>
+            <li>Screenprinting ink and a rubber squeegee</li>
+            <li>The final physical material/surface for printing</li>
         </ul>
 
-        <!--example images (uploaded to repo's "images" directory)-->
+        <h2>Final Project Image</h2>
         <img 
-            src="images/ExactImageName.webp"
+            src="/images/screenprinted_box.webp"
             width="560" 
-            alt="Your description of image in words">
+            alt="My final screenprinted project design">
 
-        <!--example video (or other content from another webpage)-->
-        <iframe 
-            src="https://drive.google.com/file/d/FILE_ID/preview"
-            width="560" height="315"
-            allowfullscreen>
-        </iframe>
-        <!-- replace FILE_ID in the example link above with
-             exact text from your actual video's share link -->
-
-        <!--example links-->
-            <a href="/about.html">Link to page/file on your site</a>
-            <a href="https://github.com" target="_blank">Link to
-                external page on web (_blank opens in new tab)</a>
+        <br><br>
+        <a href="/index.html">Back to Homepage</a>
 
     </body>
 </html>
