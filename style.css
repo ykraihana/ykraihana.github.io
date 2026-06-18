@@ -1,1 +1,65 @@
+/* Custom Portfolio Stylesheet */
 
+/* Styles the whole page background and text font */
+body {
+    background-color: #f7f9fa;
+    color: #2c3e50;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Styles the headers */
+h1 {
+    color: #1a365d;
+    border-bottom: 3px solid #1a365d;
+    padding-bottom: 10px;
+    font-size: 2.2rem;
+}
+
+h2 {
+    color: #2b6cb0;
+    margin-top: 30px;
+    font-size: 1.6rem;
+}
+
+h3 {
+    color: #4a5568;
+    margin-top: 25px;
+}
+
+/* Styles the bullet points */
+ul {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Styles the image gallery and video layout */
+img, iframe {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+}
+
+/* Styles the navigation links */
+a {
+    color: #3182ce;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #2b6cb0;
+    text-decoration: underline;
+}
